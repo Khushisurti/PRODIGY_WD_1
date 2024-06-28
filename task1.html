@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Bliss Flower Shop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <a class="navbar-brand" href="#" style="color: white; font-size: 33px;">Blooming Bliss</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shop">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-form">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content" id="home">
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Welcome to Blooming Bliss</h1>
+      <p class="lead">Your one-stop shop for the freshest flowers and beautiful bouquets</p>
+    </div>
+  </div>
+
+  <div class="content" id="about">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>At Blooming Bliss, we believe that flowers can bring joy and beauty into every occasion. Our team of experienced florists is dedicated to crafting exquisite arrangements that are perfect for any event.</p>
+      <img src="flower2.jpg" alt="Flower Shop" class="img-fluid">
+    </div>
+  </div>
+
+  <div class="content" id="shop">
+    <div class="container">
+      <h1>Shop</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="flower1.jpg" class="card-img-top" alt="Bouquet 1">
+            <div class="card-body">
+              <h5 class="card-title">Rose Bouquet</h5>
+              <p class="card-text">A beautiful bouquet of fresh roses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="flower4.jpg" class="card-img-top" alt="Bouquet 2">
+            <div class="card-body">
+              <h5 class="card-title">Tulip Bouquet</h5>
+              <p class="card-text">A vibrant arrangement of tulips.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="flower5.jpg" class="card-img-top" alt="Bouquet 3">
+            <div class="card-body">
+              <h5 class="card-title">Mixed Flowers</h5>
+              <p class="card-text">A delightful mix of seasonal flowers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="task1.js"></script>
+</body>
+</html>
